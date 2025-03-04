@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+  <application android:icon="@mipmap/ic_launcher" android:label="together_listen_flutter" android:name="${applicationName}" android:usesCleartextTraffic="true">
+    <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name=".MainActivity" android:taskAffinity="" android:theme="@style/LaunchTheme" android:windowSoftInputMode="adjustResize">
+      <meta-data android:name="io.flutter.embedding.android.NormalTheme" android:resource="@style/NormalTheme"></meta-data>
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"></action>
+        <category android:name="android.intent.category.LAUNCHER"></category>
+      </intent-filter>
+    </activity>
+    <meta-data android:name="flutterEmbedding" android:value="2"></meta-data>
+  </application>
+  <queries>
+    <intent>
+      <action android:name="android.intent.action.PROCESS_TEXT"></action>
+      <data android:mimeType="text/plain"></data>
+    </intent>
+  </queries>
+</manifest>
