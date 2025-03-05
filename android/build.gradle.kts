@@ -1,11 +1,11 @@
 allprojects {
     repositories {
-        // google()
-        // mavenCentral()
+        google()
+        mavenCentral()
 
-        maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://maven.aliyun.com/repository/jcenter' }
-        maven { url 'https://maven.aliyun.com/nexus/content/groups/public' }
+        // maven { url = uri("https://maven.aliyun.com/repository/google") }
+        // maven { url = uri("https://maven.aliyun.com/repository/jcenter") }
+        // maven { url = uri("https://maven.aliyun.com/nexus/content/groups/public") }
     }
 }
 
